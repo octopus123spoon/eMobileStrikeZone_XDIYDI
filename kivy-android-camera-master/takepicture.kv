@@ -1,0 +1,10 @@
+#:kivy 1.11.1
+#:import win kivy.core.window
+
+BoxLayout:
+
+    orientation: 'vertical'
+
+    Button:
+        text: 'Invoke Camera'
+        on_release: app.take_picture()
